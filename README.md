@@ -15,3 +15,9 @@ Using the image in a `Dockerfile`
 ```bash
 FROM eisson/angular-cli
 ```
+
+building and pushing :
+```bash
+$ docker build .  -t eisson/angular-cli:latest 
+$ docker push  eisson/angular-cli:latest 
+```
